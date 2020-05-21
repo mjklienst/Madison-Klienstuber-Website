@@ -67,6 +67,10 @@ textarea {
     margin-left: 280px;
 }
 
+#welcome {
+    text-align: center;
+}
+
 #myName {
     color: orangered;
     font-family: 'Cedarville Cursive', cursive;
@@ -80,15 +84,17 @@ textarea {
     width: 200px;
     border: solid;
     border-width: 2px;
-    border-radius: 40px;
+    border-radius: 90px;
     margin-top: -60px;
 }
 
 #titleContainer {
     border: solid;
-    background: lightgray;
+    background: linear-gradient(0deg, rgba(0,212,255,0) 3%, lightgoldenrodyellow 50%, lightblue 100%);
+    /*background: white;*/
+    box-shadow: 5px 5px 5px;
     padding: 20px;
     margin-top: 20px;
     border-width: 1px;
-    border-radius: 70px;
+    border-radius: 10px;
 }
