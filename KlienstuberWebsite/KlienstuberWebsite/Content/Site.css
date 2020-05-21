@@ -6,6 +6,15 @@
     background-attachment: fixed;
 }
 
+h1, h2, h3 {
+    font-family: 'Sunshiney', cursive;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -26,12 +35,13 @@ textarea {
     max-width: 280px;
 }
 
+
 #sunShine img {
     height: 70px;
     width: 70px;
     margin-bottom: -30px;
     position: relative;
-    left: 450px;
+    left: 250px;
     top: 16px;
 }
 
@@ -45,18 +55,40 @@ textarea {
 
 #navBar a {
     color: black;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    font-size: 23px;
+    font-family: 'Sunshiney', cursive;
+    font-size: 30px;
 }
 
     #navBar a:hover {
         color: red;
     }
 
+#welcomeTitle {
+    margin-left: 280px;
+}
+
 #myName {
     color: orangered;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    font-size: 30px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
     position: relative;
-    right: 70px;
+    right: 20px;
+}
+
+#myImage img {
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 40px;
+    margin-top: -60px;
+}
+
+#titleContainer {
+    border: solid;
+    background: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    border-width: 1px;
+    border-radius: 70px;
 }

@@ -145,6 +145,10 @@
     <Content Include="Images\Flower3.jpg" />
     <Content Include="Images\Flower4.jpg" />
     <Content Include="Images\sunrise.png" />
+    <Content Include="Images\sunrise2.jpg" />
+    <Content Include="Images\sunrise3.png" />
+    <Content Include="Images\sunrise4.png" />
+    <Content Include="Images\sunrise5.png" />
     <Content Include="Images\Tree.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
