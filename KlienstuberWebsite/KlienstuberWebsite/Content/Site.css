@@ -64,7 +64,7 @@ textarea {
     width: 70px;
     margin-bottom: -30px;
     position: relative;
-    left: 250px;
+    left: 120px;
     top: 16px;
 }
 
@@ -115,7 +115,14 @@ textarea {
     border-width: 1px;
     border-radius: 10px;
     padding-bottom: 0px;
+    height: 500px;
 }
+
+#titleContainer2 h1 {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
 
 /* About Me Page */
 
@@ -134,12 +141,12 @@ textarea {
 
     #myCarousel .carousel-control {
         border-radius: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
 #myName2 {
-    color: black;
+    color: orangered;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 45px;
     position: relative;
@@ -149,5 +156,18 @@ textarea {
 #callMeMaddy {
     font-size:25px; 
     position: relative;
-    left:190px;
+    left: 200px;
+}
+
+#callMeMaddy1 {
+    font-size:25px;
+    margin-left: 30px;
+}
+
+#descriptionOfPics {
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 450px;
 }

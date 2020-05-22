@@ -135,16 +135,32 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\birds.jpg" />
+    <Content Include="Images\bojack.jpg" />
     <Content Include="Images\coffee-cup-cafe-drawing-hand-painted-brown-coffee-cup.jpg" />
     <Content Include="Images\coffee.png" />
     <Content Include="Images\coffee2.png" />
     <Content Include="Images\coffee3.png" />
     <Content Include="Images\coffee4.jpeg" />
+    <Content Include="Images\disneybetter.jpg" />
+    <Content Include="Images\disneyme.jpg" />
     <Content Include="Images\Flower.jpg" />
     <Content Include="Images\Flower2.jpg" />
     <Content Include="Images\Flower3.jpg" />
     <Content Include="Images\Flower4.jpg" />
+    <Content Include="Images\joshandi.jpg" />
+    <Content Include="Images\lam2.jpg" />
+    <Content Include="Images\lam3.jpg" />
+    <Content Include="Images\lam3.png" />
+    <Content Include="Images\lamagain.png" />
+    <Content Include="Images\lamresearch.jpg" />
     <Content Include="Images\me.jpg" />
+    <Content Include="Images\me.png" />
+    <Content Include="Images\meandwinnie.jpg" />
+    <Content Include="Images\mewalking.jpg" />
+    <Content Include="Images\mewalking2.png" />
+    <Content Include="Images\mewalking3.png" />
+    <Content Include="Images\selfie.jpg" />
     <Content Include="Images\sunrise.png" />
     <Content Include="Images\sunrise2.jpg" />
     <Content Include="Images\sunrise3.png" />
@@ -178,6 +194,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
