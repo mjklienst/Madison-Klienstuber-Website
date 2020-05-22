@@ -12,9 +12,9 @@ h1, h2, h3 {
     font-family: 'Sunshiney', cursive;
 }
 
-p {
+p, li {
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -100,22 +100,54 @@ textarea {
     box-shadow: 5px 5px 5px;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 40px;
     border-width: 1px;
     border-radius: 10px;
+}
+
+#titleContainer2 {
+    border: solid;
+    background: white;
+    box-shadow: 5px 5px 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-bottom: 0px;
 }
 
 /* About Me Page */
 
 #carouselPics {
-    width: 400px;
+    width: 350px;
     height: 400px;
-}
-
-#myCarousel img {
-    margin-left: 360px;
     border-radius: 30px;
+    margin-left: 45px;
 }
 
-#myCarousel .carousel-control {
-    border-radius: 10px;
+#myCarousel {
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+}
+
+    #myCarousel .carousel-control {
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+#myName2 {
+    color: black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 45px;
+    position: relative;
+    left: 70px;
+}
+
+#callMeMaddy {
+    font-size:25px; 
+    position: relative;
+    left:190px;
 }
