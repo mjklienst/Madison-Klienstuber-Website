@@ -1,4 +1,6 @@
-﻿body {
+﻿/* Entire Website and Fonts CSS */
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
     background: linear-gradient(0deg, red 3%, yellow 30%, rgba(0,212,255,0) 90%);
@@ -35,15 +37,7 @@ textarea {
     max-width: 280px;
 }
 
-
-#sunShine img {
-    height: 70px;
-    width: 70px;
-    margin-bottom: -30px;
-    position: relative;
-    left: 250px;
-    top: 16px;
-}
+/* Navbar */
 
 .navbar {
     background-color: white;
@@ -62,6 +56,17 @@ textarea {
     #navBar a:hover {
         color: red;
     }
+
+/* Home Page */
+
+#sunShine img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: -30px;
+    position: relative;
+    left: 250px;
+    top: 16px;
+}
 
 #welcomeTitle {
     margin-left: 280px;
@@ -90,11 +95,27 @@ textarea {
 
 #titleContainer {
     border: solid;
-    background: linear-gradient(0deg, rgba(0,212,255,0) 3%, lightgoldenrodyellow 50%, lightblue 100%);
-    /*background: white;*/
+    /*background: linear-gradient(0deg, rgba(0,212,255,0) 3%, lightgoldenrodyellow 50%, lightblue 100%);*/
+    background: white;
     box-shadow: 5px 5px 5px;
     padding: 20px;
     margin-top: 20px;
     border-width: 1px;
+    border-radius: 10px;
+}
+
+/* About Me Page */
+
+#carouselPics {
+    width: 400px;
+    height: 400px;
+}
+
+#myCarousel img {
+    margin-left: 360px;
+    border-radius: 30px;
+}
+
+#myCarousel .carousel-control {
     border-radius: 10px;
 }
