@@ -3,5 +3,67 @@
     ViewBag.Title = "Portfolio";
 }
 
-<h2>Portfolio</h2>
+<h1 id="welcome">Portfolio</h1>
+<div id="titleContainer">
+    <h1>Resume</h1>
+    <p>If you would like to view my up-to-date resume in my Google Drive, click: </p> <div id="resButton"><button id="resumeButton">🔽 Madison's Resume</button></div>
+</div>
+
+<div id="titleContainer">
+    <h1>GitHub</h1>
+    <p id="gitDesc">If you would like to view my GitHub page, click: </p> <div id="gitButton"><a class="github-button" href="https://github.com/mjklienst">Madison's GitHub</a></div>
+    <p>Once on my GitHub page, please note: </p>
+    <ul>
+        <li>To see ASP.NET MVC5 with C# projects that I've recently created, view my <a href="https://github.com/mjklienst/CS460-Senior-Sequence">CS460-Senior-Sequence</a> repository, and please see the README as it contains information on every project in that repo, as well as YouTube links that provide demos/visual representations of what my projects looked like once completed. </li>
+        <li>To see my most recent project (my Senior Capstone Project) that I worked on with my team members using the Agile (SCRUM) methodology, view my Organization called <a href="https://github.com/bitbreakers">bitbreakers</a>, and/or see section below.</li>
+        <li>To see the code I wrote to create this website, check out my <a href="https://github.com/mjklienst/Madison-Klienstuber-Website">Madison-Klienstuber-Website</a> repository. </li>
+    </ul>
+</div>
+
+<div id="titleContainer">
+    <h1>Simply Seniors</h1>
+    <h3>Created by Bit Breakers</h3>
+    <p>
+        The <img src="~/Images/BitBreakers.png" style="height:50px; width:160px;" /> team (my Senior Capstone Project team name) came together to create a web application for seniors.
+        <br />For those who are 65 years of age and older who want a place to connect with others and access the myriad of services available, our social media web application called <i>Simply Seniors</i> is a platform to enable these interactions within your community. <img src="~/Images/SimplySeniorsRegister.png" style="width:70%;" />
+        <br /><i>Simply Seniors</i> hosts several features that users may interact with such as: Services, Events, News, Mapping, Live Weather and much more. Create a profile and customize your information utilizing a comprehensive and easy to use user interface that keeps the technical requirements to a minimum while you make friends, attend events, and just have fun. We wanted to create an atmosphere of inclusion, understanding and simplicity to allow every user equal access to all the applications features. <i>Simply Seniors</i> is the culmination of our team vision to provide a platform for seniors to use that was easy to navigate, positive, and useful so you may access resources that are important to you.
+        <br /><img src="~/Images/MyProfile.png" style="width:70%;" />
+        <br /> <br /> <b>Disclaimer:</b> We do not own the images provided on the website, aside from the <i>Simply Seniors</i> logo and our own profile pictures (provided the users upload their own images).
+        <br /> -Website hosted on Azure Web Services.
+        <br /> -Web Application created using ASP.NET MVC5 framework with C# using Visual Studios.
+        <br /> -To view the code used to create this website, view our <a href="https://github.com/bitbreakers">bitbreakers</a> repository.
+        <br /> -To see the website for yourself, visit <a href="http://simplyseniors.azurewebsites.net/">Simply Seniors</a>.
+    </p>
+</div>
+
+<div id="titleContainer">
+    <h1>Snippets of My Work / Web Applications</h1>
+    <!-- Photo Grid -->
+    <div class="row" id="row1">
+        <div class="column" id="col1">
+            <img src="~/Images/githubAPI.png" style="width:100%" /> <p id="picDesc">This project displays my GitHub repository via the GitHub API, using AJAX to display commits. </p>
+            <img src="~/Images/homeworkTracker.png" style="width:100%" /> <p id="picDesc">A homework tracker project where you can easily add your homework assignments to keep track of them, view them, and search through them. </p>
+            <img src="~/Images/firstWebsite.png" style="width:100%" /><p id="picDesc">One of the first websites I've ever made, using purely HTML, CSS, and JavaScript (no ASP.NET here). </p>
+            <img src="~/Images/worldWide.png" style="width:100%" /> <p id="picDesc">My world wide project thing. --Searching? </p>
+            <img src="~/Images/HelpPage.png" style="width:100%" /> <p id="picDesc">The easily accessible Help page found on the <i>Simply Seniors</i> website consists of Help topics on all things found on the <i>Simply Seniors</i> website. </p>
+        </div>
+        <div class="column" id="col2">
+            <img src="~/Images/eventsAPI.png" style="width:100%" /> <p id="picDesc">One of my most recent projects, <i>Simply Seniors,</i> (social media web application) displaying events near the location you inputted during profile creation via Eventful API. </p>
+            <img src="~/Images/colorInterpolate.png" style="width:100%" /> <p id="picDesc">My color project thing. </p>
+            <img src="~/Images/simplySeniorsProfile.png" style="width:100%" /><p id="picDesc">My simply seniors2 project thing. </p>
+            <img src="~/Images/worldWide2.png" style="width:100%" /> <p id="picDesc">My world wide project thing. </p>
+            <img src="~/Images/athlete.png" style="width:100%" /> <p id="picDesc">My athlete project thing. </p>
+        </div>
+    </div>
+    <img src="~/Images/website.png" style="width:100%" /> <p id="picDesc">Needless to say, the website you're on right now.</p>
+</div>
+
+
+<script type="text/javascript">
+    document.getElementById("resumeButton").onclick = function () {
+        location.href = "https://drive.google.com/file/d/17n5DrZ8Hv46P659k-5dVHUF6qS3U0eip/view";
+    };
+</script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 

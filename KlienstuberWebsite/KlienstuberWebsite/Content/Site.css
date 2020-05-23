@@ -146,7 +146,7 @@ textarea {
     }
 
 #myName2 {
-    color: orangered;
+    color: black;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 45px;
     position: relative;
@@ -168,6 +168,65 @@ textarea {
     font-size: 20px;
     margin-left: 50px;
     padding: 10px;
-    text-align: center;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
     width: 450px;
+}
+
+/* Portfolio Page */
+
+#gitButton {
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#gitDesc {
+    display: inline;
+}
+
+#resumeButton {
+    background-color: whitesmoke;
+    color: black;
+    border-style: solid;
+    border-color: lightgrey;
+    box-shadow: 0.5px 0.5px 0.5px lightgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#resButton {
+    margin-left: 445px;
+    margin-top: -32px;
+}
+
+ {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+#col1, #col2, #col3, #col4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+    #col1 img, #col2 img, #col3 img, #col4 img {
+        margin-top: 12px;
+    }
+
+/* Clear floats after the columns */
+#row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#picDesc {
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: lightgrey;
 }
