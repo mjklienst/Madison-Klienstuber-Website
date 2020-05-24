@@ -1,17 +1,45 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<h1 id="welcome">Contact Me</h1>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<h3 style="text-align:center">@ViewBag.SentMessage</h3>
+
+<form method="post" action="@Url.Action("SendMail")">
+
+    <div class="row">
+        <div id="emailBox">
+            <h2> Send Me A Message! </h2><br />
+            <p>Please enter your message below, as well as your contact information so I can get back to you as soon as possible.</p>
+            <hr />
+            <div class="col-md-8">
+                <section id="loginForm">
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <p>Email: </p>
+                            <input type="text" name="email" class="form-control" placeholder="youremail@email.com" /> <br />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <p>Subject: </p>
+                            <input type="text" name="subject" class="form-control" placeholder="subject" /> <br />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <p>Body: </p>
+                            <textarea class="form-control" name="body" placeholder="body of text here"></textarea> <br />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10"> <br />
+                            <input type="submit" id="sendEmail" value="📧 Send" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</form>
