@@ -148,6 +148,7 @@
     <Content Include="Images\disneybetter.jpg" />
     <Content Include="Images\disneyme.jpg" />
     <Content Include="Images\eventsAPI.png" />
+    <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\firstWebsite.png" />
     <Content Include="Images\Flower.jpg" />
     <Content Include="Images\Flower2.jpg" />
