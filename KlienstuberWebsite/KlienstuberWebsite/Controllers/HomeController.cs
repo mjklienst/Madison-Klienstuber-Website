@@ -39,6 +39,13 @@ namespace KlienstuberWebsite.Controllers
             return View();
         }
 
+        public ActionResult NotFound()
+        {
+            ViewBag.Message = "Error Page!";
+
+            return View();
+        }
+
         public ActionResult SendMail()
         {
             //Always send to this email:

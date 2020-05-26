@@ -170,10 +170,14 @@
     <Content Include="Images\mewalking2.png" />
     <Content Include="Images\mewalking3.png" />
     <Content Include="Images\MyProfile.png" />
+    <Content Include="Images\rain.png" />
+    <Content Include="Images\rain2.jpg" />
     <Content Include="Images\selfie.jpg" />
     <Content Include="Images\simplySeniorsHome.png" />
     <Content Include="Images\simplySeniorsProfile.png" />
     <Content Include="Images\SimplySeniorsRegister.png" />
+    <Content Include="Images\sun2.png" />
+    <Content Include="Images\suncry.png" />
     <Content Include="Images\sunrise.png" />
     <Content Include="Images\sunrise2.jpg" />
     <Content Include="Images\sunrise3.png" />
@@ -212,6 +216,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
